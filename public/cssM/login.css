@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.create_acount{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: center;
+    padding: 80px;
+    background: hsl(209, 71%, 41%);
+    border-bottom-right-radius: 95%;
+    align-items: center;
+    justify-content: center;
+}
+.create_acount h1{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.create_acount p{
+    color: #fff;
+}
+.btn{
+    display: inline-block;
+    min-width: 150px;
+    background: transparent;
+    padding: 15px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    
+}
+.btn.btn_login{
+    
+    box-shadow: 0 5px 15px hsl(209, 71%, 41%);
+    color: hsl(209, 71%, 41%);
+}
+
+/* outro lado */
+.login{
+    min-width: 40%;
+    height: 100%;
+    padding: 70px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form h1{
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+
+form input{
+    border: none;
+    min-width: 250px;
+    background: #f6f6f6;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+form input:focus{
+    
+    box-shadow: 0 5px 15px hsl(209, 71%, 41%);
+    outline: none;
+}
+
+form p{
+    font-size: 0.8em;
+}
+
+.redes_s{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: hsl(209, 71%, 41%);
+    border-radius: 50%;
+    box-shadow: 0 5px 15px #0000009a;
+}
+
+@media (max-width: 700px){
+    main{
+        flex-direction: column;
+    }
+    .create_acount{
+        width: 100%;
+        border-bottom-right-radius: 85%;
+    }
+}
+@media (max-width: 400px){
+
+    .create_acount{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

@@ -1,0 +1,122 @@
+:root{
+    /*
+    --main-color: #202020;
+    --main-colorw--10: #222222e5;
+    --secund-color: #ff0077;
+    --secund-color--10: #700d3cee;
+
+    */
+        --main-color: #ffffff;
+        --main-colorw--10: #cccccc6e;
+        --secund-color: #1e6bb3;
+        --secund-color--10: #123c63;
+        
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-colorw--10);
+    overflow-x: hidden;
+}
+main{
+    margin-left: 200px;
+}
+nav{
+    background-color: var(--main-color);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.user{
+    width: 100%;
+    margin-left: 10px;
+}
+.user a{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--secund-color);
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--secund-color);
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li{
+    margin-left: 10px;
+    
+}
+ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 20px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid var(--main-colorw--10);
+}
+
+
+ul li a:hover {
+    border-bottom: 1px solid var(--secund-color);
+    transition: 1.7s ;
+}
+
+ul li a.txt-link{
+    margin-left: 20px;
+}
+
+ul li a.icon > i{
+    font-size: 20px;
+}
+nav{
+    box-shadow: 3px 0 0 var(--secund-color);
+}
+
+
+
+ul li ul{
+    margin-left: 60px;
+    height: 0;
+    overflow: hidden;
+}
+
+.mais:hover > ul{
+    height: 85px;
+    transition: .7s;
+}
+
+ul li ul li{
+    margin: 0;
+}
+ul li ul li a.txt-link{
+    margin-left: 0px;
+    font-size: 1rem;
+    padding: 10px 4%;
+}
