@@ -14,10 +14,10 @@
 <div>
     <h1>Imagens do Sistema</h1>
     <div style="display: flex; width: 100%; padding: 20px; gap: 1%; flex-wrap: wrap; box-sizing: border-box;">
-        <img src="./Screenshot from 2024-04-09 12-58-49.png" alt="" width="49%">
-        <img src="./Screenshot from 2024-04-09 12-59-26.png" alt="" width="49%">
-        <img src="./Screenshot from 2024-04-09 12-59-56.png " alt="" width="35%">
-        <img src="./Screenshot from 2024-04-09 13-00-28.png" alt=""
+        <img src="git/Screenshot from 2024-04-09 12-58-49.png" alt="" width="49%">
+        <img src="git/Screenshot from 2024-04-09 12-59-26.png" alt="" width="49%">
+        <img src="git/Screenshot from 2024-04-09 12-59-56.png " alt="" width="35%">
+        <img src="git/Screenshot from 2024-04-09 13-00-28.png" alt=""
         width="63%">
     </div>
 </div>
@@ -38,7 +38,7 @@
         <li>CRUD das MiniPautas</li>
         <li>Edicao e insercao de notas</li>
 
-    </ul>
+</ul>
 </div>
 <div style="background-color: rgb(16, 120, 211); padding: 20px;">
     <h3  style="color: #fff;">Requisitos do Aluno</h3>
